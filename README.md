@@ -4,30 +4,46 @@ Objective
 
 Implement the Insertion Sort algorithm and analyze its time and space complexities.
 
+
 Programming Language
 
 Python
 
+
 Algorithm
 
-1. Start from the second element of the array.
-2. Store the current element as the key.
-3. Compare the key with the previous elements.
-4. Shift all elements greater than the key one position to the right.
-5. Insert the key at its correct position.
-6. Repeat the process until the entire array is sorted.
+* Start from the second element of the array.
+
+* Store the current element as the key.
+
+* Compare the key with the previous elements.
+
+* Shift all elements greater than the key one position to the right.
+
+* Insert the key at its correct position.
+
+* Repeat the process until the entire array is sorted.
 
 How to Run
 
-1. Install Python 3.
-2. Save the program as "insertion_sort.py".
-3. Open the terminal or command prompt.
-4. Navigate to the project folder.
-5. Execute the command:
-   python insertion_sort.py
-6. Enter the number of elements.
-7. Enter the array elements.
-8. View the sorted output.
+- Install Python 3.
+
+- Save the program as insertion_sort.py.
+
+- Open the terminal or command prompt.
+
+- Navigate to the project folder.
+
+
+ Execute the command:
+
+python insertion_sort.py
+
+- Enter the number of elements.
+
+- Enter the array elements.
+
+- View the sorted output.
 
 Sample Input
 
@@ -47,16 +63,22 @@ Sorted Array:
 
 Time Complexity
 
-Case| Complexity
-Best Case| O(n), Θ(n), Ω(n)
-Average Case| O(n²), Θ(n²), Ω(n²)
-Worst Case| O(n²), Θ(n²), Ω(n²)
+Case                 Complexity  
+
+Best Case             O(n), Θ(n), Ω(n)
+
+Average Case          O(n²), Θ(n²), Ω(n²)
+
+Worst Case            O(n²), Θ(n²), Ω(n²)
+
 
 Explanation
 
-- Best Case: The array is already sorted, requiring only one comparison for each element.
-- Average Case: The elements are in random order, requiring comparisons and shifts.
-- Worst Case: The array is in reverse order, requiring the maximum number of comparisons and shifts.
+Best Case: The array is already sorted, requiring only one comparison for each element.
+
+Average Case: The elements are in random order, requiring comparisons and shifts.
+
+Worst Case: The array is in reverse order, requiring the maximum number of comparisons and shifts.
 
 Space Complexity
 
@@ -66,18 +88,25 @@ Insertion Sort is an in-place sorting algorithm, meaning it requires only a cons
 
 Advantages
 
-- Simple and easy to implement.
-- Efficient for small datasets.
-- Stable sorting algorithm.
-- In-place sorting (requires constant extra space).
-- Performs well for nearly sorted arrays.
+Simple and easy to implement.
+
+Efficient for small datasets.
+
+Stable sorting algorithm.
+
+In-place sorting (requires constant extra space).
+
+Performs well for nearly sorted arrays.
 
 Disadvantages
 
-- Inefficient for large datasets.
-- Average and worst-case time complexity is O(n²).
-- Not suitable for large-scale sorting applications.
+Inefficient for large datasets.
+
+Average and worst-case time complexity is O(n²).
+
+Not suitable for large-scale sorting applications.
 
 Course Outcome
 
-CO1 – Analyze any given algorithm and express its time and space complexities using asymptotic notations.# Insertion-sort-algorithm-
+CO1 – Analyze any given algorithm and express its time and space complexities using asymptotic notations.
+
