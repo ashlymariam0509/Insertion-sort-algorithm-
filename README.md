@@ -1,55 +1,57 @@
-Insertion Sort Algorithm
-Objective
+# Insertion Sort
+
+## Aim
 Implement the Insertion Sort algorithm and analyze its time and space complexities.
 
-Programming Language
+## Programming Language
 Python
 
-Algorithm
-Start from the second element.
-Store the current element as the key.
-Compare the key with previous elements.
-Shift larger elements one position to the right.
-Insert the key at the correct position.
-Repeat until the array is sorted.
-How to Run
-Install Python 3.
+## Algorithm
+1. Start from the second element.
+2. Store it as the key.
+3. Compare it with previous elements.
+4. Shift larger elements to the right.
+5. Insert the key into the correct position.
+6. Repeat until the array is sorted.
 
-Open terminal.
+## How to Run
 
-Execute:
+1. Install Python 3.
+2. Save the file as `insertion_sort.py`.
+3. Open a terminal in the project folder.
+4. Run:
 
+```bash
 python insertion_sort.py
-Enter the number of elements.
+```
 
-Enter the array elements.
+5. Enter the array elements separated by spaces.
 
-View the sorted output.
+## Sample Input
 
-Sample Input
-6
-64
-25
-12
-22
-11
-90
-Sample Output
-11 12 22 25 64 90
-Time Complexity
-Case	Complexity
-Best	O(n), Θ(n), Ω(n)
-Average	O(n²), Θ(n²), Ω(n²)
-Worst	O(n²), Θ(n²), Ω(n²)
-Space Complexity
+```
+9 5 1 4 3
+```
+
+## Sample Output
+
+```
+Original Array: [9, 5, 1, 4, 3]
+Sorted Array: [1, 3, 4, 5, 9]
+```
+
+## Time Complexity
+
+| Case | Complexity |
+|------|------------|
+| Best | O(n), Θ(n), Ω(n) |
+| Average | O(n²), Θ(n²), Ω(n²) |
+| Worst | O(n²), Θ(n²), Ω(n²) |
+
+## Space Complexity
+
 O(1)
-Advantages
-Simple to implement.
-Efficient for small datasets.
-Stable sorting algorithm.
-In-place sorting.
-Disadvantages
-Inefficient for large datasets.
-Time complexity becomes O(n²) for average and worst cases.
-Course Outcome
-CO1 – Analyze any given algorithm and express its time and space complexities using asymptotic notations.
+
+## Course Outcome
+
+**CO1:** Analyze algorithms and express their time and space complexities using asymptotic notations.
