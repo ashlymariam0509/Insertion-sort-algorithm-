@@ -63,13 +63,13 @@ Sorted Array:
 
 Time Complexity
 
-Case                 Complexity  
+Case                     Complexity  
 
-Best Case             O(n), Θ(n), Ω(n)
+Best Case                 O(n), Θ(n), Ω(n)
 
-Average Case          O(n²), Θ(n²), Ω(n²)
+Average Case              O(n²), Θ(n²), Ω(n²)
 
-Worst Case            O(n²), Θ(n²), Ω(n²)
+Worst Case                O(n²), Θ(n²), Ω(n²)
 
 
 Explanation
